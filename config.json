@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "장지훈"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n이 그래프는 『서역중화해동불조원류(西域中華海東佛祖源流)』 법맥의 시각화한 네트워크 그래프입니다.\n\u003c/p\u003e\n\n\u003cp\u003e\n『서역중화해동불조원류(西域中華海東佛祖源流)』는 편양문파의 제자인 사암 채영(獅巖采永)이 편찬하여, 1764년 완주 송광사에서 간행되었으며, 조선 후기 3천여 명의 승려와 그들의 법맥을 정리한 사서입니다.\n\u003c/p\u003e\n\n\u003cp\u003e\n해당 네트워크 그래프는 서울대학교 규장각한국학연구원 소장본(청구기호 : 가람古294.32-C346s)을 저본으로 하여 제작되었습니다.\n\u003c/p\u003e\n\n\u003cp\u003e\n방향: 법사(法師)에서 법제(法弟)로 향하는 유방향 그래프\n\u003c/p\u003e\n\n\u003cp\u003e\n노드의 색깔과 크기 : Out-degree\n\u003c/p\u003e",
+    "intro": "『서역중화해동불조원류(西域中華海東佛祖源流)』의 \u0027해동원류(海東源流)\u0027 부분에 실린 3368명의 승려와 그들의 법맥 관계를 시각화한 네트워크 그래프입니다.",
+    "title": "서역중화해동불조원류 법맥 네트워크 그래프"
+  },
+  "legend": {
+    "edgeLabel": "법사(法師)-법제(法弟)",
+    "colorLabel": "Out Degree",
+    "nodeLabel": "승려"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
